@@ -1,0 +1,24 @@
+{
+    "name": "DeepStream 7.0 Python Development",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--gpus", "all",
+        "--network", "host"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-vscode.cpptools",
+                "franneck94.vscode-python-dev-extension-pack",
+                "franneck94.vscode-coding-tools-extension-pack",
+                "franneck94.workspace-formatter",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
