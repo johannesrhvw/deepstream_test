@@ -33,3 +33,9 @@ trtexec --onnx=model_in.onnx --fp32 --saveEngine=model_out.engine --verbose
 Adapt the `config_infer_primary_yoloV8_seg.txt` file to your models engine file and size.
 
 Adapt the `deepstream_app_config.txt` file so its source and tile output match batch size and size.
+
+## Running
+
+```bash
+deepstream-app -c deepstream_app_config.txt
+```
