@@ -16,7 +16,14 @@
                 "franneck94.vscode-python-dev-extension-pack",
                 "franneck94.vscode-coding-tools-extension-pack",
                 "franneck94.workspace-formatter",
-                "ms-azuretools.vscode-docker"
+                "ms-azuretools.vscode-docker",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "peakchen90.open-html-in-browser",
+                "ryu1kn.partial-diff",
+                "vitaliymaz.vscode-svg-previewer",
+                "ms-vscode.hexeditor",
+                "ms-vscode.makefile-tools",
+                "ms-vscode.cpptools-extension-pack"
             ]
         }
     },
